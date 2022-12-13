@@ -3,6 +3,7 @@ import json
 import re
 
 from PIL import Image
+import flask
 from flask import Blueprint, url_for, render_template, request
 from flask import Blueprint, render_template
 from werkzeug.utils import redirect

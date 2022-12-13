@@ -1,6 +1,6 @@
-from flask import Blueprint, url_for
+from flask import Blueprint, url_for, render_template
 from werkzeug.utils import redirect
-from flask import Blueprint, render_template
+import flask
 
 bp = Blueprint('main', __name__, url_prefix='/')
 
